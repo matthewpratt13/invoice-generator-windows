@@ -2,9 +2,6 @@
 
 This invoice generator is a binary application that calculates power consumption based on inverter yield and export data. The front end was made using the GTK-RS library.
 
-The current Windows build can be found at `target/release/invoice-generator.exe`.
-
-If you would like to build the project for yourself, follow the Installation and Compilation instructions below. Otherwise, see the Usage instructions for a guide to interacting with the app.
 
 ## Installation
 
@@ -67,7 +64,7 @@ pacman -S mingw-w64-x86_64-gtk4 mingw-w64-x86_64-gettext mingw-w64-x86_64-libxml
 
 ### Interacting with the App
 
-- Run the executable at `target/release/invoice-generator.exe`.
+- Go to `<project-directory>/target/release>` and run the executable.
 
 #### Main window
 
